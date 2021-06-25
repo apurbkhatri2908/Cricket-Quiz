@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:b);
+h1{
+	font-family: 'Roboto',serif;
+	text-align: center;
+	color: #fff;
+	font-size: 35px;
+}
+body  {
+  background-image: url("cricketquiz.jpg");
+
+}
+ul{
+	list-style: none;
+}
+li{
+	font-family: 'Roboto',serif;
+	font-size: 2em;
+	color: #feb125;
+}
+input[type=radio]{
+	border: 0px;
+	width: 20px;
+	height: 2em;
+}
+
+p{
+	font-family: 'Roboto',serif;
+}
+.quizContainer{
+	background-color: #0007d7;
+	border-radius: 8px;
+	width: 75%;
+	margin: auto;
+	margin-top: 190px;
+	padding-top: 5px;
+	position: relative;
+}
+.nextButton{
+	border-radius: 6px;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	background-color: #cc0000;
+
+	color:#ffff;
+	font-family: 'Roboto',serif;
+	font-weight: bold;
+	position: relative;
+	margin: auto;
+	padding-top: 20px;
+}
+.question{
+	font-family: 'Roboto',serif;
+	font-size: 2em;
+	width: 90%;
+	height: auto;
+	margin: auto;
+	border-radius: 6px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	background-color: yellow;
+}.quizMessage{
+	background-color: peachpuff;
+	border-radius: 6px;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	padding:2px;
+	font-family: 'Roboto',serif;
+	color: red;
+}
+.choiceList{
+	font-family: Courier,serif;
+	color: blueviolet;
+}
+.result{
+	width: 30%;
+	height: auto;
+	border-radius: 6px;
+	background-color: linen;
+	margin: auto;
+	margin-bottom: 35px;
+	text-align: center;
+	font-family: 'Roboto',serif;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=i7dKIFtyYSaNG9A_JrmedQ&skey=415f62b718dd1a36&v=v3) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  text-shadow: 4px 4px 4px #aaa;
+}
+#marq {
+	margin-top: 50px;
+}
