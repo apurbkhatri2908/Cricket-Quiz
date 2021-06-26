@@ -7,6 +7,8 @@ h1{
 }
 body  {
   background-image: url("cricketquiz.jpg");
+  height: auto;
+  width: auto;
 
 }
 ul{
@@ -27,12 +29,12 @@ p{
 	font-family: 'Roboto',serif;
 }
 .quizContainer{
-	background-color: #0007d7;
-	border-radius: 8px;
+	background-color: #AC66CC;
+	border-radius: 20px;
 	width: 75%;
 	margin: auto;
-	margin-top: 190px;
-	padding-top: 5px;
+	margin-top: 68px;
+	padding-top: 2px;
 	position: relative;
 }
 .nextButton{
@@ -52,14 +54,15 @@ p{
 .question{
 	font-family: 'Roboto',serif;
 	font-size: 2em;
-	width: 90%;
+	width: 95%;
 	height: auto;
 	margin: auto;
-	border-radius: 6px;
+	border-radius: 15px;
 	text-align: center;
-	color: rgb(0, 0, 0);
-	background-color: yellow;
-}.quizMessage{
+	color: #343F56;
+	background-color: #FB9300;
+}
+.quizMessage{
 	background-color: peachpuff;
 	border-radius: 6px;
 	width: 30%;
@@ -71,7 +74,7 @@ p{
 }
 .choiceList{
 	font-family: Courier,serif;
-	color: blueviolet;
+	color: #F54748;
 }
 .result{
 	width: 30%;
@@ -93,5 +96,17 @@ p{
   text-shadow: 4px 4px 4px #aaa;
 }
 #marq {
-	margin-top: 50px;
+	margin-top: 10px;
+	color: #3B14A7;
+}
+.title{
+    background-color: #FFF5DA;
+    border-radius: 30px;
+    width: 50%;
+    font-size: 125px;
+    line-height:auto;
+    margin: auto;
+    color: #FFA900;
+    font-family:'Roboto',serif;
+    position: relative;
 }
